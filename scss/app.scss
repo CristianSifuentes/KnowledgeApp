@@ -1,9 +1,9 @@
-// Variables
+@import 'variables';
 
-// Colores
-$principal: #33C3f0;
-$blanco: #ffffff;
-$gris: #e1e1e1;
+body{
+    font-family: $fuente_principal;
+}
+
 
 .contenedor{
     max-width: 1100px;
@@ -60,7 +60,7 @@ $gris: #e1e1e1;
 
 
 #header{
-    background-color: blueviolet;
+    background-color: $secundario;
 }
 .hero{
     background-color: greenyellow;
