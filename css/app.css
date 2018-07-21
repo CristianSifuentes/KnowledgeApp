@@ -16,6 +16,9 @@ body {
 .oculto {
   display: none; }
 
+.centrado {
+  text-align: center; }
+
 .header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -95,7 +98,7 @@ body {
 .barra {
   min-height: 6rem;
   padding: 1rem;
-  background: linear-gradient(to right, #741d51 0%, #e44e52 100%);
+  background: linear-gradient(to right, #ec5252 0%, #e6343a 100%);
   color: #ffffff;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -146,11 +149,38 @@ body {
         background-repeat: no-repeat;
         background-position: center center; }
 
+.cursos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+  .cursos .curso {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 calc(50% - 1rem);
+    flex: 0 1 calc(50% - 1rem);
+    border: 1px solid #bfbfbf;
+    margin-bottom: 1rem; }
+    .cursos .curso .imagen-curso {
+      width: 100%; }
+    @media only screen and (min-width: 768px) {
+      .cursos .curso {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 1 calc(33% - 1rem);
+        flex: 0 1 calc(33% - 1rem); } }
+    @media only screen and (min-width: 1024px) {
+      .cursos .curso {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 1 calc(25% - 1rem);
+        flex: 0 1 calc(25% - 1rem); } }
+    .cursos .curso .info-curso {
+      padding: 1rem; }
+
 .encabezado {
   background-color: burlywood; }
-
-.cursos {
-  background-color: aqua; }
 
 #footer {
   background-color: bisque; }
