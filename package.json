@@ -17,9 +17,12 @@
   },
   "homepage": "https://github.com/CristianSifuentes/KnowledgeApp#readme",
   "devDependencies": {
+    "bxslider": "^4.2.13",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^5.0.0",
-    "gulp-sass": "^4.0.1"
+    "gulp-sass": "^4.0.1",
+    "jquery": "^3.3.1",
+    "typescript": "^2.9.2"
   },
   "browsersList": [
     "> 1%",
