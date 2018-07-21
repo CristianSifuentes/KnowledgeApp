@@ -1,0 +1,24 @@
+{
+  "name": "knowledgeapp",
+  "version": "1.0.0",
+  "description": "Aplicación de cursos en línea",
+  "main": "index.js",
+  "scripts": {
+    "test": "7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CristianSifuentes/KnowledgeApp.git"
+  },
+  "author": "Cristian Sifuenres Covarrubia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CristianSifuentes/KnowledgeApp/issues"
+  },
+  "homepage": "https://github.com/CristianSifuentes/KnowledgeApp#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-sass": "^4.0.1"
+  }
+}
