@@ -1,4 +1,49 @@
-body{
-    display: flex;
-    flex-direction: column;
+.contenedor{
+    max-width: 1100px;
+    margin: 0 auto;
 }
+
+.oculto{
+    display: none;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    .logo{
+        padding: 1.4rem 0;
+    }
+}
+
+
+
+
+
+
+
+
+#header{
+    background-color: blueviolet;
+}
+.hero{
+    background-color: greenyellow;
+}
+
+.barra{
+    background-color: palevioletred;
+}
+
+.encabezado{
+    background-color: burlywood;
+
+}
+.cursos{
+    background-color: aqua;
+}
+
+#footer{
+    background-color: bisque;
+}
+
