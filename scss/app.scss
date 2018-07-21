@@ -79,7 +79,11 @@ body {
 
         form {
                position: relative;
-               width: 40%;
+   
+               @include table(){
+                width: 40%;
+               }
+
                
                input[type="submit"]{
                    position: absolute;

@@ -7,6 +7,7 @@
     text-align: center;
     color: $blanco;
     text-decoration: none;
+    text-transform: uppercase;
 }
 
 @mixin box-sizing($box-model){
@@ -18,3 +19,27 @@
     background-repeat: no-repeat;
     background-position: center center;
 }
+
+@mixin telefono(){
+    @media only screen and (min-width: #{$telefono}){
+         @content;
+    }
+}
+
+
+@mixin table(){
+    @media only screen and (min-width: #{$table}){
+        @content;
+
+    }
+}
+
+
+
+@mixin desktop(){
+    @media only screen and (min-width: #{$desktop}){
+        @content;
+
+    }
+}
+
